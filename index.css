@@ -34,13 +34,13 @@ a {
 
 @keyframes bg-transition {
   0% {
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(0, 0, 0, 1);
   }
   50% {
-    background-color: rgb(45, 16, 73);
+    background-color: rgba(45, 16, 73,0.4);
   }
   100% {
-    background-color: rgba(0, 0, 0, 0.87);
+    background-color: rgba(0, 0, 0, 0.6);
   }
 }
 
@@ -83,7 +83,6 @@ a {
   height: 20vw;
   width: 20vw;
   background-size: 100% 100%;
-  background-color: teal;
   margin-left: auto;
   margin-right: auto;
   animation-name: image_transitions;
