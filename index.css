@@ -82,6 +82,7 @@ a {
   border-radius: 50%;
   height: 20vw;
   width: 20vw;
+  background-color: teal;
   margin-left: auto;
   margin-right: auto;
   animation-name: image_transitions;
