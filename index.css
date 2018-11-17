@@ -97,8 +97,9 @@ a {
   margin-left: auto;
   margin-right: auto;
   animation-name: image_transitions;
-  animation-duration: 20s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
+  z-index:1001;
 }
 
 @keyframes image_transitions{
