@@ -109,7 +109,8 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-  var options = {
+
+  var typed = new Typed(".subtitle", {
     strings: [
       "I like to code",
       "I like to write",
@@ -122,7 +123,4 @@ particlesJS("particles-js", {
     backDelay: 500,
     loop: true,
     loopCount: Infinity
-  };
-
-  var typed = new Typed(".subtitle", options);
-}
+  });
