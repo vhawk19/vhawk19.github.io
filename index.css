@@ -93,13 +93,13 @@ a {
 
 @keyframes image_transitions{
   0%{
-    background-image: url('images/fire.jpg');
-  }
-  50%{
     background-image: url('images/sherlocked_face.jpg');
   }
-  100%{
+  50%{
     background-image: url('images/eye_1.jpg');
+  }
+  100%{
+    background-image: url('images/sherlocked_face.jpg');
   }
 }
 .links {
