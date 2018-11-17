@@ -82,6 +82,8 @@ a {
   border-radius: 50%;
   height: 20vw;
   width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
   animation-name: image_transitions;
   animation-duration: 20s;
   animation-iteration-count: infinite;
@@ -111,3 +113,12 @@ a {
     width: 50vw;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 80px;
+  }
+  .profile-pic {
+    height: 50vw;
+    width: 50vw;
+  }
