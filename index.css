@@ -48,8 +48,8 @@ canvas {
   width: 26px;
   height: 192px;
   background: #f08d43;
-  left: 100px;
-  top: 100px;
+  left: 48%;
+  top: 48%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
