@@ -124,4 +124,3 @@ particlesJS("particles-js", {
     loop: true,
     loopCount: Infinity
   });
-
