@@ -112,10 +112,10 @@ particlesJS("particles-js", {
 
   var typed = new Typed(".subtitle", {
     strings: [
-      "I like to code",
-      "I like to write",
-      "I like to play",
-      "I like to listen"
+      "Music"
+      "Code",
+      "Eat",
+      "Repeat"
     ],
     typeSpeed: 50,
     startDelay: 500,
